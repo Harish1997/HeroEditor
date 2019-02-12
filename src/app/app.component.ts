@@ -9,6 +9,9 @@ export class AppComponent {
   title = 'my first ang';
   selector1: boolean;
   selector2:boolean;
+  constructor(){
+    this.selector1=true;
+  }
 
   changer1():void{
     console.log("clicked");

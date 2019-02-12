@@ -37,6 +37,7 @@
     font-size: 20px;
     font-family: sans-serif;
     border-radius: 50px 50px 50px 50px;
+
   }
   .heroes li.selected:hover {
     background: #FF512F;  /* fallback for old browsers */
@@ -73,4 +74,67 @@
     border-radius: 50px 0 0 50px;
   }
 
+  .hero-adder{
+      display: inline-block;
+      height: 20vh;
+      border: none;
+      padding: 20px;
+      vertical-align: top;
+      margin-top: 20vh;
+      margin-left: 30px;
+      border-radius: 10px;
+      background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+       }
+  .hero-name{
+      border-radius: 5px;
+      border: none;
+      font-size: 20px;
+      padding-left: 10px;
+      height:30px;
+      outline: none;
+  }
+
+  .labeldiv{
+      margin-bottom: 10px;
+      color: white;
+      font-family: sans-serif;
+      font-size: 22px;
+  }
+  .inputdiv{
+      margin-bottom: 10px;
+      border-radius: 10px;
+
+  }
   
+  .addb{
+      width: 40%;
+      margin-left: 30%;
+      margin-top: 7%;
+      border: none;
+      height: 25px;
+      border-radius: 5px;
+      background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .addb:hover{
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  }
+
+  .fa-trash-alt{
+      position: absolute;
+      right: 0;
+      margin-right: 25px;
+      margin-top: 10px;
+      color: wheat;
+  }
+
+  .fa-trash-alt:hover{
+      color: rgb(255, 20, 20);
+
+  }

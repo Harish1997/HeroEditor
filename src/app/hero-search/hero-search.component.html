@@ -1,0 +1,13 @@
+<div id="search-component">
+    <h4>Hero Search</h4>
+    <img class="searchb" src="http://www.shockandaweclan.com/images/radar.gif?w=1400">
+    <img class="batmob" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/1dbc1935-6542-4ee3-822f-135cff4ba62c/db401qb-95a10d3f-3ce7-43d7-9efd-2d065c0bffc7.png/v1/fill/w_779,h_1026,strp/j_l__batman___transparent_background__by_camo_flauge_db401qb-pre.png">
+    <input #searchBox id="search-box" (input)="search(searchBox.value)" placeholder="Enter the name of the hero" />
+    <ul class="search-result">
+      <li *ngFor="let hero of heroes$ | async" >
+        <div routerLink="/detail/{{hero.id}}">
+          {{hero.name}}
+        </div>
+      </li>
+    </ul>
+  </div>

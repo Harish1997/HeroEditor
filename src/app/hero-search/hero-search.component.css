@@ -1,0 +1,80 @@
+#search-component{
+    margin-top: 30vh;
+    background: url("http://chesapeakefilmfestival.com/wp-content/uploads/searchlight-background.jpg");
+    opacity: 0.9;
+    height: 50vh;
+    background-size: 50%;  
+    background-position: right top;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 20px 20px #CC000000 inset;
+    position: relative;
+}
+h4{
+text-align: center;
+color: #F7971E;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+font-size: 48px;
+margin-top: 20px;
+}
+#search-box{
+    width: 80%;
+    opacity: 0.7;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 24px;    
+    padding-left: 20px;
+    margin-top: -20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.batmob{
+    width: 150px;
+    height: 200px;
+    background: black;
+    display: inline-block;
+    margin-top: -60px;
+}
+.searchb{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position:absolute;
+    right:0;
+    top:20%;
+}
+.search-result{
+    background: #F3904F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 80%;
+    list-style-type: none;
+    padding: unset;
+    position: absolute;
+    top:40%;
+    left:4%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+    outline: none;
+}
+.search-result li{
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-align:center;
+    font-size: 23px;
+    text-decoration: none;
+    outline: none;
+}
+
+.search-result li:hover{
+    background-color: aliceblue;
+    outline: none;
+}
