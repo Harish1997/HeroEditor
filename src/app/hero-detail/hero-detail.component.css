@@ -1,0 +1,35 @@
+.hero-holder{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10%;
+    margin-left: 10px;
+    padding: 20px;
+    background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 30px;
+}
+.id-span{
+    color: white;
+}
+
+label{
+  color: white;
+}
+.hero-holder > .hero-namer{
+  color: white;
+  margin: unset;
+  padding: unset;
+}
+
+#user-input{
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+  padding-left: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 19px;
+  outline: none;
+}

@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background:url("https://wallpapersite.com/images/wallpapers/superman-3840x2154-batman-hd-4k-10860.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: unset;
+}

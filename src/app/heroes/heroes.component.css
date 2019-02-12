@@ -1,0 +1,76 @@
+/* HeroesComponent's private CSS styles */
+.selected {
+    background: #FF512F !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F09819, #FF512F) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F09819, #FF512F) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: black !important;
+  }
+  .myhero-title{
+      margin-left: 30px;
+      color: #ffd002;
+      font-family: sans-serif;
+      font-size: 40px;
+  }
+  h2{
+      color: white;
+  }
+  .heroes {
+    margin: 0 0 2em 0;
+    margin-left: 20px;
+    list-style-type: none;
+    padding: 0;
+    width: 25%;
+    display: inline-block;
+  }
+  .heroes li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background: #BA8B02;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #181818, #BA8B02);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+     color: white;
+    margin: .5em;
+    padding: .3em 0;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 50px 50px 50px 50px;
+  }
+  .heroes li.selected:hover {
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: black;
+  }
+  .heroes li:hover {
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFE000, #799F0C, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+        color: black;
+    left: .1em;
+}
+  .heroes .text {
+    position: relative;
+    top: -3px;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  .heroes .badge {
+    display: inline-block;
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    line-height: 2em;
+    position: relative;
+    background-color: #4A53F1;
+    left: 2px;
+    height: 40px;
+    top:-5px;
+    margin-right: .8em;
+    border-radius: 50px 0 0 50px;
+  }
+
+  
